@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "violin.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "icons8-violin-50 (1).png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "icons8-violin-75 (1).png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
