@@ -51,6 +51,5 @@ func lanes() -> String {
     var lanes = ["Lane 1", "Lane 2", "Lane 3", "Lane 4", "Lane 5"]
     let random = lanes[Int(arc4random_uniform(UInt32(lanes.count)))]
     return random
-    
 }
 

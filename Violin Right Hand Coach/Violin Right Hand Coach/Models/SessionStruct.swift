@@ -9,20 +9,16 @@
 import Foundation
 
 
-struct Session {
-    var bpm : Int
-    var Time : Int
-    var exercises : [Exercise]
-    
-    
-    
-    init (bpm: Int, Time: Int, exercises : [Exercise] ) {
+public struct Session {
+    public var bpm : Int
+    public var Time : Int
+    public var exercises : [Exercise]
+
+    public init (bpm: Int, Time: Int, exercises : [Exercise] ) {
         self.bpm = bpm
         self.Time = Time
         self.exercises = exercises
     }
-    
-    
 }
 
 
