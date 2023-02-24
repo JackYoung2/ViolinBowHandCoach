@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum playedString: String {
+public enum PlayedString: String {
     case G
     case D
     case A

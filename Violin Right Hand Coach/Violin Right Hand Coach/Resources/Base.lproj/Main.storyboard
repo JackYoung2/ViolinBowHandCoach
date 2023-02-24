@@ -276,13 +276,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bpm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IS-Wm-toP">
-                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="27.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="10" maxValue="160" translatesAutoresizingMaskIntoConstraints="NO" id="fWg-dL-fZ9">
-                                                <rect key="frame" x="72.5" y="0.0" width="219.5" height="31"/>
+                                                <rect key="frame" x="68.5" y="0.0" width="223.5" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="SliderDragged:" destination="lxd-9P-I8O" eventType="valueChanged" id="LwW-pJ-qZP"/>
@@ -530,7 +530,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="y63-gO-ksh">
                                 <rect key="frame" x="10" y="54" width="300" height="504"/>
-                                <string key="text">Step 1 - Choose how long you want your session to be.
+                                <mutableString key="text">Step 1 - Choose how long you want your session to be.
 
 Step 2 – Choose what tempo you want to practice at. (60 BPM is a recommended starting point.)
 
@@ -545,7 +545,7 @@ Step 5 - Hit begin session and start playing!
 This app was designed with flexibility in mind; so all the variables of the session are adjustable. However if you have too many exercises and not enough time the session will become ineffective. 
 
 All exercises are performed on open strings. 
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" name="Arial-Black" family="Arial Black" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
