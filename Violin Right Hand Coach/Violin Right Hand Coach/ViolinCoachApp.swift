@@ -10,7 +10,7 @@ import SwiftUI
 import AppFeature
 
 @main
-struct HealthyBrainApp: App {
+struct ViolinCoachApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
 
     var body: some Scene {

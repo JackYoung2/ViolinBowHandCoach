@@ -10,6 +10,17 @@
 		040E0B1029A7D6DE00387A4E /* Assets.xcassets 18-23-54-321.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E0B0F29A7D6DE00387A4E /* Assets.xcassets 18-23-54-321.xcassets */; };
 		045631C329A6674200A07744 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 045631C229A6674200A07744 /* AppFeature */; };
 		045631C529A6683000A07744 /* ViolinCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045631C429A6683000A07744 /* ViolinCoachApp.swift */; };
+		04F0A1EC29B4ED1F0013E726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1DC29B4ED1E0013E726 /* Assets.xcassets */; };
+		04F0A1ED29B4ED1F0013E726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1DD29B4ED1E0013E726 /* LaunchScreen.storyboard */; };
+		04F0A1EE29B4ED1F0013E726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1DF29B4ED1E0013E726 /* Main.storyboard */; };
+		04F0A1EF29B4ED1F0013E726 /* click2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E229B4ED1E0013E726 /* click2.wav */; };
+		04F0A1F029B4ED1F0013E726 /* click1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E329B4ED1E0013E726 /* click1.wav */; };
+		04F0A1F129B4ED1F0013E726 /* Tone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E429B4ED1E0013E726 /* Tone.wav */; };
+		04F0A1F229B4ED1F0013E726 /* tone_A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E529B4ED1E0013E726 /* tone_A.wav */; };
+		04F0A1F329B4ED1F0013E726 /* StringBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E629B4ED1E0013E726 /* StringBeep.wav */; };
+		04F0A1F429B4ED1F0013E726 /* violinZoomed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E729B4ED1E0013E726 /* violinZoomed.png */; };
+		04F0A1F529B4ED1F0013E726 /* Assets.xcassets 18-23-54-321.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F0A1E829B4ED1E0013E726 /* Assets.xcassets 18-23-54-321.xcassets */; };
+		04F0A1F629B4ED1F0013E726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0A1E929B4ED1E0013E726 /* AppDelegate.swift */; };
 		CE0B0EB82148CBEC00DC26D4 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B0EB72148CBEC00DC26D4 /* aboutViewController.swift */; };
 		CE0C5DA521420CA900D3B88A /* beep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C5DA421420CA900D3B88A /* beep.swift */; };
 		CE0C5DA72142182800D3B88A /* StringBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE0C5DA62142182800D3B88A /* StringBeep.wav */; };
@@ -18,7 +29,6 @@
 		CE22E412213E1FAF005BE934 /* helperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22E411213E1FAF005BE934 /* helperFunctions.swift */; };
 		CE238C24232BEB4800524E86 /* ExerciseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE238C23232BEB4800524E86 /* ExerciseDataSource.swift */; };
 		CE238C2A232D330600524E86 /* NewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE238C29232D330600524E86 /* NewExerciseViewController.swift */; };
-		CE238C2E232D570600524E86 /* exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE238C2C232D570600524E86 /* exercise.xcdatamodeld */; };
 		CE238C30232D5FB400524E86 /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE238C2F232D5FB400524E86 /* alert.swift */; };
 		CE238C32232E28F800524E86 /* ExerciseTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE238C31232E28F800524E86 /* ExerciseTableviewDelegate.swift */; };
 		CE2698132148EA9C004FE3EE /* tone_A.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE2698122148EA9C004FE3EE /* tone_A.wav */; };
@@ -41,6 +51,18 @@
 		040E0B0F29A7D6DE00387A4E /* Assets.xcassets 18-23-54-321.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets 18-23-54-321.xcassets"; path = "../../../../../../.Trash/Resources/Assets.xcassets 18-23-54-321.xcassets"; sourceTree = "<group>"; };
 		045631C429A6683000A07744 /* ViolinCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinCoachApp.swift; sourceTree = "<group>"; };
 		049489D929A661380071A899 /* ViolinBowCoach */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ViolinBowCoach; path = ../../ViolinBowCoach; sourceTree = "<group>"; };
+		04F0A1DC29B4ED1E0013E726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F0A1DE29B4ED1E0013E726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F0A1E029B4ED1E0013E726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F0A1E229B4ED1E0013E726 /* click2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click2.wav; sourceTree = "<group>"; };
+		04F0A1E329B4ED1E0013E726 /* click1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click1.wav; sourceTree = "<group>"; };
+		04F0A1E429B4ED1E0013E726 /* Tone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tone.wav; sourceTree = "<group>"; };
+		04F0A1E529B4ED1E0013E726 /* tone_A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone_A.wav; sourceTree = "<group>"; };
+		04F0A1E629B4ED1E0013E726 /* StringBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = StringBeep.wav; sourceTree = "<group>"; };
+		04F0A1E729B4ED1E0013E726 /* violinZoomed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violinZoomed.png; sourceTree = "<group>"; };
+		04F0A1E829B4ED1E0013E726 /* Assets.xcassets 18-23-54-321.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 18-23-54-321.xcassets"; sourceTree = "<group>"; };
+		04F0A1E929B4ED1E0013E726 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exercise.xcdatamodel; sourceTree = "<group>"; };
 		CE0B0EB72148CBEC00DC26D4 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 		CE0C5DA421420CA900D3B88A /* beep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beep.swift; sourceTree = "<group>"; };
 		CE0C5DA62142182800D3B88A /* StringBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = StringBeep.wav; sourceTree = "<group>"; };
@@ -89,6 +111,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		04F0A1DB29B4ED1E0013E726 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04F0A1DC29B4ED1E0013E726 /* Assets.xcassets */,
+				04F0A1DD29B4ED1E0013E726 /* LaunchScreen.storyboard */,
+				04F0A1DF29B4ED1E0013E726 /* Main.storyboard */,
+				04F0A1E129B4ED1E0013E726 /* Sounds */,
+				04F0A1E729B4ED1E0013E726 /* violinZoomed.png */,
+				04F0A1E829B4ED1E0013E726 /* Assets.xcassets 18-23-54-321.xcassets */,
+				04F0A1E929B4ED1E0013E726 /* AppDelegate.swift */,
+				04F0A1EA29B4ED1E0013E726 /* Database.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04F0A1E129B4ED1E0013E726 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				04F0A1E229B4ED1E0013E726 /* click2.wav */,
+				04F0A1E329B4ED1E0013E726 /* click1.wav */,
+				04F0A1E429B4ED1E0013E726 /* Tone.wav */,
+				04F0A1E529B4ED1E0013E726 /* tone_A.wav */,
+				04F0A1E629B4ED1E0013E726 /* StringBeep.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		CE238C2B232D56A400524E86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +173,7 @@
 		CE4FFBA62132359000BABC38 /* Violin Right Hand Coach */ = {
 			isa = PBXGroup;
 			children = (
+				04F0A1DB29B4ED1E0013E726 /* Resources */,
 				CEFDA6232330F4FF003C204D /* Helpers */,
 				CE238C2B232D56A400524E86 /* Resources */,
 				CEB545C6232BAC1100FA5EF0 /* Views */,
@@ -253,13 +303,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2698132148EA9C004FE3EE /* tone_A.wav in Resources */,
+				04F0A1F129B4ED1F0013E726 /* Tone.wav in Resources */,
 				CE4FFBB22132359200BABC38 /* LaunchScreen.storyboard in Resources */,
+				04F0A1F529B4ED1F0013E726 /* Assets.xcassets 18-23-54-321.xcassets in Resources */,
 				CE8ED2A9214DBF500040A5FA /* violinZoomed.png in Resources */,
+				04F0A1F429B4ED1F0013E726 /* violinZoomed.png in Resources */,
+				04F0A1EE29B4ED1F0013E726 /* Main.storyboard in Resources */,
 				CEFDA620232FC5D4003C204D /* click2.wav in Resources */,
+				04F0A1F029B4ED1F0013E726 /* click1.wav in Resources */,
+				04F0A1EC29B4ED1F0013E726 /* Assets.xcassets in Resources */,
+				04F0A1F329B4ED1F0013E726 /* StringBeep.wav in Resources */,
+				04F0A1EF29B4ED1F0013E726 /* click2.wav in Resources */,
 				CE0C5DA921421FD300D3B88A /* Tone.wav in Resources */,
 				CE0C5DA72142182800D3B88A /* StringBeep.wav in Resources */,
 				CE4FFBAD2132359000BABC38 /* Main.storyboard in Resources */,
+				04F0A1F229B4ED1F0013E726 /* tone_A.wav in Resources */,
 				040E0B1029A7D6DE00387A4E /* Assets.xcassets 18-23-54-321.xcassets in Resources */,
+				04F0A1ED29B4ED1F0013E726 /* LaunchScreen.storyboard in Resources */,
 				CEFDA61E232FC5CA003C204D /* click1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,12 +338,12 @@
 				CE597FC62140B7F700833C57 /* EndSessionViewController.swift in Sources */,
 				CEB545C8232BAC2600FA5EF0 /* ExerciseCell.swift in Sources */,
 				045631C529A6683000A07744 /* ViolinCoachApp.swift in Sources */,
-				CE238C2E232D570600524E86 /* exercise.xcdatamodeld in Sources */,
 				CE238C24232BEB4800524E86 /* ExerciseDataSource.swift in Sources */,
 				CE30B71923324B1300B76A5E /* IncrementExtension.swift in Sources */,
 				CEFDA6222330F372003C204D /* PlayedString.swift in Sources */,
 				CEECB87A213B578700B536C9 /* Metronome.swift in Sources */,
 				CE4FFBA82132359000BABC38 /* AppDelegate.swift in Sources */,
+				04F0A1F629B4ED1F0013E726 /* AppDelegate.swift in Sources */,
 				CE238C2A232D330600524E86 /* NewExerciseViewController.swift in Sources */,
 				CE0C5DAF2146059C00D3B88A /* InfoViewController.swift in Sources */,
 				CE0B0EB82148CBEC00DC26D4 /* aboutViewController.swift in Sources */,
@@ -295,6 +355,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		04F0A1DD29B4ED1E0013E726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0A1DE29B4ED1E0013E726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04F0A1DF29B4ED1E0013E726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0A1E029B4ED1E0013E726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		CE4FFBAB2132359000BABC38 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -497,6 +573,16 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
+		04F0A1EA29B4ED1E0013E726 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */,
+			);
+			currentVersion = 04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		CE238C2C232D570600524E86 /* exercise.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
