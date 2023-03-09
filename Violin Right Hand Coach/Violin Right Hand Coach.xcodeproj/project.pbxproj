@@ -62,7 +62,6 @@
 		04F0A1E729B4ED1E0013E726 /* violinZoomed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violinZoomed.png; sourceTree = "<group>"; };
 		04F0A1E829B4ED1E0013E726 /* Assets.xcassets 18-23-54-321.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 18-23-54-321.xcassets"; sourceTree = "<group>"; };
 		04F0A1E929B4ED1E0013E726 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exercise.xcdatamodel; sourceTree = "<group>"; };
 		CE0B0EB72148CBEC00DC26D4 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 		CE0C5DA421420CA900D3B88A /* beep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beep.swift; sourceTree = "<group>"; };
 		CE0C5DA62142182800D3B88A /* StringBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = StringBeep.wav; sourceTree = "<group>"; };
@@ -71,7 +70,6 @@
 		CE22E411213E1FAF005BE934 /* helperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperFunctions.swift; sourceTree = "<group>"; };
 		CE238C23232BEB4800524E86 /* ExerciseDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataSource.swift; sourceTree = "<group>"; };
 		CE238C29232D330600524E86 /* NewExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseViewController.swift; sourceTree = "<group>"; };
-		CE238C2D232D570600524E86 /* exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exercise.xcdatamodel; sourceTree = "<group>"; };
 		CE238C2F232D5FB400524E86 /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
 		CE238C31232E28F800524E86 /* ExerciseTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableviewDelegate.swift; sourceTree = "<group>"; };
 		CE2698122148EA9C004FE3EE /* tone_A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone_A.wav; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				04F0A1E729B4ED1E0013E726 /* violinZoomed.png */,
 				04F0A1E829B4ED1E0013E726 /* Assets.xcassets 18-23-54-321.xcassets */,
 				04F0A1E929B4ED1E0013E726 /* AppDelegate.swift */,
-				04F0A1EA29B4ED1E0013E726 /* Database.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				CEFDA61C232FBD02003C204D /* Sounds */,
-				CE238C2C232D570600524E86 /* exercise.xcdatamodeld */,
 				CE4FFBA72132359000BABC38 /* AppDelegate.swift */,
 				CE4FFBB02132359200BABC38 /* LaunchScreen.storyboard */,
 				040E0B0F29A7D6DE00387A4E /* Assets.xcassets 18-23-54-321.xcassets */,
@@ -571,29 +567,6 @@
 			productName = AppFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		04F0A1EA29B4ED1E0013E726 /* Database.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */,
-			);
-			currentVersion = 04F0A1EB29B4ED1E0013E726 /* exercise.xcdatamodel */;
-			path = Database.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		CE238C2C232D570600524E86 /* exercise.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CE238C2D232D570600524E86 /* exercise.xcdatamodel */,
-			);
-			currentVersion = CE238C2D232D570600524E86 /* exercise.xcdatamodel */;
-			path = exercise.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CE4FFB9C2132359000BABC38 /* Project object */;
 }
