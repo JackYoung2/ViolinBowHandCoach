@@ -1,0 +1,49 @@
+{
+  "configurations" : [
+    {
+      "id" : "D4884F59-3086-40B1-8498-815DFFF2B78F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Violin Right Hand Coach.xcodeproj",
+      "identifier" : "CE4FFBA32132359000BABC38",
+      "name" : "Violin Right Hand Coach"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "identifier" : "AppFeatureTests",
+        "name" : "AppFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "identifier" : "MainBowHandFeatureTests",
+        "name" : "MainBowHandFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "identifier" : "ScalesFeatureTests",
+        "name" : "ScalesFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "identifier" : "BowHandSessionFeatureTests",
+        "name" : "BowHandSessionFeatureTests"
+      }
+    }
+  ],
+  "version" : 1
+}
