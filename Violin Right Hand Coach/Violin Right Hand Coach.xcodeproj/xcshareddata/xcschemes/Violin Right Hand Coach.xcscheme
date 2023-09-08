@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Violin Right Hand Coach.xctestplan"
+            reference = "container:Violin Right Hand Coach/Violin Right Hand Coach.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

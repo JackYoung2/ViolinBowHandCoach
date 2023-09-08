@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		042A20EF2AAB567500C90EA6 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 042A20EE2AAB567500C90EA6 /* AppFeature */; };
+		04CE71A12AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042A20ED2AAB566300C90EA6 /* ViolinBowCoachPackage */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViolinBowCoachPackage; sourceTree = SOURCE_ROOT; };
-		047313FC2AA4D34A0001336F /* Violin Right Hand Coach.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Violin Right Hand Coach.xctestplan"; sourceTree = "<group>"; };
 		04A79CD62AAB555A0077F464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A79CE82AAB555A0077F464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Violin Right Hand Coach.xctestplan"; sourceTree = "<group>"; };
 		04F5E6042AAB4EEC00A42EAF /* Violin Right Hand Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Violin Right Hand Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,26 +41,18 @@
 		04A79CD32AAB555A0077F464 /* Violin Right Hand Coach */ = {
 			isa = PBXGroup;
 			children = (
+				04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */,
+				04A79CD62AAB555A0077F464 /* Assets.xcassets */,
 				042A20ED2AAB566300C90EA6 /* ViolinBowCoachPackage */,
-				04A79CD42AAB555A0077F464 /* Resources */,
 				04A79CE82AAB555A0077F464 /* Info.plist */,
 			);
 			path = "Violin Right Hand Coach";
-			sourceTree = "<group>";
-		};
-		04A79CD42AAB555A0077F464 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				04A79CD62AAB555A0077F464 /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		CE4FFB9B2132359000BABC38 = {
 			isa = PBXGroup;
 			children = (
 				04A79CD32AAB555A0077F464 /* Violin Right Hand Coach */,
-				047313FC2AA4D34A0001336F /* Violin Right Hand Coach.xctestplan */,
 				045631C129A6674200A07744 /* Frameworks */,
 				04F5E6042AAB4EEC00A42EAF /* Violin Right Hand Coach.app */,
 			);
@@ -94,8 +87,9 @@
 		CE4FFB9C2132359000BABC38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Jack Young";
 				TargetAttributes = {
 					CE4FFBA32132359000BABC38 = {
@@ -127,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE71A12AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +164,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -194,7 +190,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -229,6 +225,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -248,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

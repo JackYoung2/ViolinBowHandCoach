@@ -18,30 +18,30 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "containerPath" : "container:ViolinBowCoachPackage",
         "identifier" : "AppFeatureTests",
         "name" : "AppFeatureTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "containerPath" : "container:ViolinBowCoachPackage",
+        "identifier" : "BowHandSessionFeatureTests",
+        "name" : "BowHandSessionFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ViolinBowCoachPackage",
         "identifier" : "MainBowHandFeatureTests",
         "name" : "MainBowHandFeatureTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:..\/..\/ViolinBowCoach",
+        "containerPath" : "container:ViolinBowCoachPackage",
         "identifier" : "ScalesFeatureTests",
         "name" : "ScalesFeatureTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:..\/..\/ViolinBowCoach",
-        "identifier" : "BowHandSessionFeatureTests",
-        "name" : "BowHandSessionFeatureTests"
       }
     }
   ],
