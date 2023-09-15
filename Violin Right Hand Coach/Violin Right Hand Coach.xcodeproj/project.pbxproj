@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401BF862AAE28330092BDF4 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 04A79CD62AAB555A0077F464 /* Assets.xcassets */; };
 		042A20EF2AAB567500C90EA6 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 042A20EE2AAB567500C90EA6 /* AppFeature */; };
 		04CE71A12AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */; };
 /* End PBXBuildFile section */
@@ -132,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0401BF862AAE28330092BDF4 /* Assets.xcassets in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7T3V73LMKG;
@@ -280,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7T3V73LMKG;
