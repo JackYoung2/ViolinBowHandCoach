@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0401BF862AAE28330092BDF4 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 04A79CD62AAB555A0077F464 /* Assets.xcassets */; };
 		042A20EF2AAB567500C90EA6 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 042A20EE2AAB567500C90EA6 /* AppFeature */; };
+		047480B92ABC65A6009ED955 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047480B82ABC65A6009ED955 /* GoogleService-Info.plist */; };
 		04CE71A12AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042A20ED2AAB566300C90EA6 /* ViolinBowCoachPackage */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViolinBowCoachPackage; sourceTree = SOURCE_ROOT; };
+		047480B82ABC65A6009ED955 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		04A79CD62AAB555A0077F464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A79CE82AAB555A0077F464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Violin Right Hand Coach.xctestplan"; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		04A79CD32AAB555A0077F464 /* Violin Right Hand Coach */ = {
 			isa = PBXGroup;
 			children = (
+				047480B82ABC65A6009ED955 /* GoogleService-Info.plist */,
 				04CE71A02AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan */,
 				04A79CD62AAB555A0077F464 /* Assets.xcassets */,
 				042A20ED2AAB566300C90EA6 /* ViolinBowCoachPackage */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CE71A12AAB5F58004ADE13 /* Violin Right Hand Coach.xctestplan in Resources */,
+				047480B92ABC65A6009ED955 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
