@@ -43,6 +43,13 @@
         "identifier" : "ScalesFeatureTests",
         "name" : "ScalesFeatureTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ViolinBowCoachPackage",
+        "identifier" : "AuthTests",
+        "name" : "AuthTests"
+      }
     }
   ],
   "version" : 1
